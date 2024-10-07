@@ -1,7 +1,7 @@
 # Projeto-Portfolio-Devops
 
-Paleta de cores:
--Plano de fundo: #455559
--Cards: #3D5A73
--Cabeçalho : #273A49
+Paleta de Cores
+-Plano de fundo: #171b1c
+-Cards: #2d96f1
+-Cabeçalho: #273A49
 -Fonte: #FFFFFF
