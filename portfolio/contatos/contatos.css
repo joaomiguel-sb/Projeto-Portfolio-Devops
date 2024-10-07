@@ -1,0 +1,103 @@
+/* Estilos gerais */
+body {
+    font-family: OCR A Std, monospace;
+    background-color:  #171b1c;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 40px; /* ajusta para não cobrir o conteúdo */
+}
+
+
+/* Cabeçalho */
+header {
+    background-color: #273A49;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-family:'Courier New', Courier, monospace;
+    margin: 0;
+    font-size: 2rem;
+}
+
+/* left & right */
+#left{
+    width: 50%;
+}
+#right{
+    width: 50%;    
+}
+
+/* Cards */
+.card {
+    background-color: #2d96f1;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8); /* sombra suave */
+}
+
+.card h2 {
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+
+.card p {
+    font-size: 1rem;
+    margin-left: 20px;
+}
+
+/* Links */
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    margin-left: 20px;
+}
+
+a:hover {
+    color: #FFD700; /* Exemplo de cor diferente */
+    text-decoration: underline;
+}
+
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #273A49;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #273A49;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button:hover {
+    transition: 10ms;
+    background-color: #0c1f2f;
+}
+
