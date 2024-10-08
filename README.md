@@ -1,5 +1,6 @@
 # Projeto-Portfolio-Devops
 
+
 Paleta de Cores
 -Plano de fundo: #171b1c
 -Cards: #2d96f1
