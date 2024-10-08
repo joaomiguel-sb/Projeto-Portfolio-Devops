@@ -101,3 +101,25 @@ button:hover {
     background-color: #0c1f2f;
 }
 
+.back-arrow {
+    font-size: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px;
+    position: fixed; /* Muda para 'fixed' para que ela fique sempre visível no canto */
+    bottom: 20px; /* Posiciona a 20px do fundo */
+    left: 20px; /* Mantém 20px da esquerda */
+    background-color: #273A49;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s;
+}
+
+.back-arrow:hover {
+    background-color: #1F2C38; 
+}
+
